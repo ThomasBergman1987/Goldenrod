@@ -1,0 +1,192 @@
+body {
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857;color:#333;background-color:#fff
+}
+.top {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: (100px, auto);
+  width: 100%;
+}
+.left {
+  float: left;
+  text-align: left;
+}
+.right {
+  float: right;
+  text-align: right;
+}
+.header {
+  font-variant: small-caps;
+  font-family: Proxima Nova SemiBold;
+  text-align: center;
+  font-size: 200%;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+.header h1 {
+  font-variant: small-caps;
+  font-family: Proxima Nova SemiBold;
+  letter-spacing: 0px;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+.header h2 {
+  font-variant: small-caps;
+  font-family: Proxima Nova SemiBold;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: C28268;
+}
+.navbar {
+  list-style: none;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  width: 70%;
+  font-variant: small-caps;
+  font-family: Proxima Nova SemiBold;
+  font-size: 16px;
+}
+.nav-item {
+  padding: 1%;
+}
+.nav-item:hover {
+  color: C28268;
+}
+.wrapper {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: (100px, auto);
+  background-color: rgb(0,0,0) transparent;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  height: 80%;
+  font-family: Proxima Nova SemiBold;
+  font-variant: small-caps;
+  font-size: 20px;
+}
+.wrapper a {
+  color: white;
+}
+.content {
+  background-color: rgb(0,0,0) transparent;
+  background-color: rgba(0,0,0,0.6);
+  font-family: sans-serif;
+  color: white;
+  margin: auto;
+  width: 80%;
+  padding-bottom: 10%;
+  font-size: 16px;
+}
+.headline {
+  font-family: sans-serif;
+  text-align: center;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+.anchor-right {
+  float: right;
+  width: 33%;
+  padding-left: 2%;
+}
+.anchor-center {
+  width: 96%;
+  padding: 2%;
+}
+.content-text {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.one {
+  background-image: url("http://i.imgur.com/EPLK3DF.jpg");
+  background-size: cover;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  text-align: center;
+  color: white;
+}
+.one:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.two {
+  background-image: url("http://i.imgur.com/WVPReh2.jpg");
+  background-size: cover;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  text-align: center;
+  color: white;
+}
+.two:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.three {
+  background-image: url("http://i.imgur.com/fmpMslT.jpg");
+  background-size: cover;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  text-align: center;
+  color: white;
+}
+.three:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.four {
+  background-image: url("http://i.imgur.com/ATjhnzL.jpg");
+  background-size: cover;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  text-align: center;
+  color: white;
+}
+.four:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.five {
+  background-image: url("https://www.dropbox.com/s/u8tu27rvk7g7tg7/BergmanWeb%2002.jpg");
+  background-size: cover;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  text-align: center;
+  color: white;
+}
+.five:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.six {
+  background-image:  url("artist-image.jpg");
+  background-size: cover;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  text-align: center;
+  color: white;
+}
+.six:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.footer {
+  text-align: center;
+  margin: auto;
+  padding: 1%;
+}
